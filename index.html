@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+
+		<link rel="stylesheet" type="text/css" href="bby.css">
+</head>
+<div class="cuadro" id="cuadro"><input type="text" name="mostrar" id="mostrar" class="mostrar"></div>
+<input type="text" name="frase" id="frase" class="frase">
+	<input type="button" name="boton" value="mostrar" class="boton" onclick="mostrar();">
+	
+	<body onkeypress="teclado()" background="fondo.jpg">
+
+	<script >
+
+		function teclado(){
+	if(event.code=="KeyA")
+	{
+			var cuadro=document.getElementById("cuadro");
+            cuadro.className="cuadro2";
+	}
+	if(event.code=="KeyB")
+	{
+			var cuadro=document.getElementById("cuadro");
+            cuadro.className="cuadro3";
+	}
+	if(event.code=="KeyC")
+	{
+			var cuadro=document.getElementById("cuadro");
+            cuadro.className="cuadro4";
+	}
+		}
+	function mostrar(){
+			var frasee=document.getElementById("frase").value;
+		document.getElementById("mostrar").value=frasee;
+	}
+				</script>
+
+</body>

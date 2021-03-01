@@ -1,0 +1,84 @@
+            .cuadro{
+				position: absolute;
+		    	background-color: #E24C0F;
+		    	border-radius: 15px;
+		    	border-color: #000;
+		    	border-style: solid;
+		    	opacity: 0.8;
+		    	width: 200px;
+		    	height: 100px;
+		    	top: 80px;
+			    left: 600px;
+				text-decoration: none;
+				font-family:Arial, Helvetica, sans-serif;
+			} 
+			.cuadro2{
+		    	position: absolute;
+		    	background-color: #52DB07;
+		    	border-radius: 15px;
+		    	border-color: #000;
+		    	border-style: solid;
+		    	opacity: 0.8;
+		    	width: 200px;
+		    	height: 100px;
+		    	top: 80px;
+			    left: 600px;
+				text-decoration: none;
+				font-family:Arial, Helvetica, sans-serif;
+		    }
+		    .cuadro3{
+		    	position: absolute;
+		    	background-color: #FFC300;
+		    	border-radius: 15px;
+		    	border-color: #000;
+		    	border-style: solid;
+		    	opacity: 0.8;
+		    	width: 200px;
+		    	height: 100px;
+		    	top: 80px;
+			    left: 600px;
+				text-decoration: none;
+				font-family:Arial, Helvetica, sans-serif;
+		    }
+		    .cuadro4{
+		    	position: absolute;
+		    	background-color: #C70039;
+		    	border-radius: 15px;
+		    	border-color: #000;
+		    	border-style: solid;
+		    	opacity: 0.8;
+		    	width: 200px;
+		    	height: 100px;
+		    	top: 80px;
+			    left: 600px;
+				text-decoration: none;
+				font-family:Arial, Helvetica, sans-serif;
+		    }
+		    .mostrar{
+		    	position: absolute;
+		    	top: 20px;
+			    left: 10px;
+			    opacity: 0.8;
+				text-decoration: none;
+				font-family:Arial, Helvetica, sans-serif;
+		    }
+		     .frase{
+		    	position: absolute;
+		    	top: 20px;
+			    left: 610px;
+				text-decoration: none;
+				font-family:Arial, Helvetica, sans-serif;
+		    }
+		    .boton{
+            	position: absolute;
+		    	top: 50px;
+			    left: 670px;
+				text-decoration: none;
+				font-family:Arial, Helvetica, sans-serif;
+		    }
+		   body{
+		    	background-attachment: fixed;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+		    
